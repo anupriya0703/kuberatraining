@@ -1,0 +1,51 @@
+/* for compete website, margin and padding*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* Background color for Nvigation bar start */ 
+.navbar-custom { 
+    background-color: #2c0735; 
+} 
+/* Background color for Nvigation bar end*/
+
+/*Navigation bar aligment- sticky starts*/
+#nav-bar
+{
+  position: sticky;
+  top:0;
+  z-index: 10;
+}
+/*Navigation bar aligment- sticky ends*/
+
+/*Navigation bar image aligmnet starts*/
+.navbar-brand img
+{
+ height: 40px;
+ padding-left: 10px;
+}
+/*Navigation bar image aligmnet ends*/
+
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a
+{
+    color: #ffffff;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #f37207;
+}
+
